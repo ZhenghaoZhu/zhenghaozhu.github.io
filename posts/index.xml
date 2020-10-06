@@ -1,35 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Zhenghao (Kevin) Zhu</title>
-    <link>https://zhenghaozhu.github.io/posts/</link>
-    <description>Recent content in Posts on Zhenghao (Kevin) Zhu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Zhenghao (Kevin) Zhu</copyright>
-    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://zhenghaozhu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Hugo site on Github with domain from Namecheap</title>
-      <link>https://zhenghaozhu.github.io/posts/hugo-site-on-github-with-domain-from-namecheap/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhenghaozhu.github.io/posts/hugo-site-on-github-with-domain-from-namecheap/</guid>
-      <description>A personal website to showcase personal projects is one of the most important things a computer science student should have when they are searching for a job. This tutorial will serve all those students that are not well-versed in web development and want an easy way to set up their website in a fast manner.
+    <channel>
+        <title>Posts on Zhenghao (Kevin) Zhu</title>
+        <link>https://zhenghaozhu.github.io/posts/</link>
+        <description>Recent content in Posts on Zhenghao (Kevin) Zhu</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Zhenghao (Kevin) Zhu</copyright>
+        <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://zhenghaozhu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Hugo site on Github with domain from Namecheap</title>
+            <link>https://zhenghaozhu.github.io/posts/hugo-site-on-github-with-domain-from-namecheap/</link>
+            <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://zhenghaozhu.github.io/posts/hugo-site-on-github-with-domain-from-namecheap/</guid>
+            <description>A personal website to showcase personal projects is one of the most important things a computer science student should have when they are searching for a job. This tutorial will serve all those students that are not well-versed in web development and want an easy way to set up their website in a fast manner.
  Before Starting  With this tutorial I&amp;rsquo;m assuming you have an IDE such as VS Codeor Sublimeand a version control system such as Git.</description>
-    </item>
-    
-    <item>
-      <title>A Better Youtube Search Query</title>
-      <link>https://zhenghaozhu.github.io/posts/a-better-youtube-search-query/</link>
-      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhenghaozhu.github.io/posts/a-better-youtube-search-query/</guid>
-      <description>⚙️Work In Progress⚙️</description>
-    </item>
-    
-  </channel>
+            <content type="html"><![CDATA[<blockquote>
+<p>A personal website to showcase personal projects is one of the most important things a computer science student should have when they are searching for a job. This 
+tutorial will serve all those students that are not well-versed in web development and want an easy way to set up their website in a fast manner.</p>
+</blockquote>
+<h2 id="before-starting">Before Starting</h2>
+<hr>
+<p>With this tutorial I&rsquo;m assuming you have an IDE such as <!-- raw HTML omitted -->VS Code<!-- raw HTML omitted --> or <!-- raw HTML omitted -->Sublime<!-- raw HTML omitted --> and a version control system such as <!-- raw HTML omitted -->Git<!-- raw HTML omitted -->. 
+Also, you will need to create a GitHub account and Namecheap account to be able to perform instructions further down the line.</p>
+<h2 id="setting-up">Setting Up</h2>
+<hr>
+<p>First, we should install Hugo with the help of the terminal. The code snippets for installing on Windows, Mac, or Linux respectively are below.</p>
+<h3 id="windows-with-chocolatey">Windows with Chocolatey</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">choco install hugo -confirm
+</code></pre></div><h4 id="install-chocolatey-on-windows-with-powershell">Install Chocolatey on Windows with Powershell</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Set-ExecutionPolicy Bypass -Scope Process -Force; iex <span style="color:#f92672">((</span>New-Object System.Net.WebClient<span style="color:#f92672">)</span>.DownloadString<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;https://chocolatey.org/install.ps1&#39;</span><span style="color:#f92672">))</span>
+</code></pre></div><h3 id="mac-with-homebrew">Mac with Homebrew</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install hugo
+</code></pre></div><h3 id="linux-with-linuxbrew">Linux with Linuxbrew</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install hugo
+</code></pre></div><h3 id="further-instructions">Further Instructions</h3>
+<p>The next steps can be found in the <a href="https://gohugo.io/getting-started/installing/">Hugo docs</a> which will help you set up the environment in your OS of choice.</p>
+<h2 id="your-first-hugo-site-with-a-theme">Your first Hugo site with a theme</h2>
+<hr>
+<p><strong>This further instructions can also be accomplished with the respective terminal in your operating system, whether that is OS, Linux, or some other operating system.</strong></p>
+<p>Let&rsquo;s set up your site first using the terminal. For this tutorial, we will be using Powershell on Windows 10. First, navigate to the Desktop directory and then follow the command below.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">C:<span style="color:#ae81ff">\U</span>sers<span style="color:#ae81ff">\u</span>sername<span style="color:#ae81ff">\D</span>esktop&gt; hugo new site site-name
+</code></pre></div><p>This should create a folder called site-name in your desktop with some boilerplate code.</p>
+<h3 id="initializing-repository-and-choosing-a-theme">Initializing repository and choosing a theme</h3>
+<p>To choose a theme, go to the <!-- raw HTML omitted -->Hugo themes webpage<!-- raw HTML omitted -->. If you only want to use the theme without any changes then run the following git commands to set up a git repository with a clone of the theme. For this tutorial, we will be using the Pulp theme.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git init
+git clone https://github.com/koirand/pulp.git themes/pulp
+</code></pre></div><p>If you want to make changes to the theme, the best solution is to download the theme from Github and manually adding it to the themes folder.</p>
+<p>After initializing the repository and adding the theme, we need to configure the config.toml file in the site&rsquo;s folder. We will do this by copy-pasting the config.toml file available in the theme&rsquo;s folder.</p>
+<h3 id="deploying-to-github-pages">Deploying to Github Pages</h3>
+<p>Now create an online <!-- raw HTML omitted -->new<!-- raw HTML omitted --> repository called [username].github.io and another repository called Personal-Website. The [username].github.io repository will host the HTML that will eventually be published to Github pages while the Personal-Website repository will host the Hugo files which will be used to generate the HTML files.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin git@github.com:<span style="color:#f92672">[</span>github_username<span style="color:#f92672">]</span>/Personal-Website.git
+git add -A
+git commit -m <span style="color:#e6db74">&#34;Initial commit for Hugo site&#34;</span>
+git submodule add git@github.com:<span style="color:#f92672">[</span>github_username<span style="color:#f92672">]</span>/<span style="color:#f92672">[</span>github_username<span style="color:#f92672">]</span>.github.io.git
+git add -A
+git commit -m <span style="color:#e6db74">&#34;Initial commit for HTML code generated by Hugo&#34;</span>
+git push -u origin master
+</code></pre></div><p>After this, we need to change the config.toml file by changing the baseURL and publishDir variables to the Github page URL. This will look like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">baseUrl = &#34;https://[github_username].github.io/&#34;
+...
+publishDir = &#34;[github_username].github.io/&#34;
+</code></pre></div><p>Now, just generate the HTML files using the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo 
+</code></pre></div><p>The last step is pushing the generated HTML files to Github by doing the following:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add -A
+git commit -m <span style="color:#e6db74">&#34;HTML files generated and first iteration of personal website&#34;</span>
+git push origin master
+</code></pre></div><p>Now do the same thing in your main repository hosting the Hugo code</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add -A
+git commit -m <span style="color:#e6db74">&#34;First version of Hugo personal website&#34;</span>
+git push origin master
+</code></pre></div><h2 id="custom-domain-using-namecheap">Custom domain using Namecheap</h2>
+<p>This is an <em>optional step</em>.</p>
+<p>To set up a custom domain for your Github page you first need a custom domain! My tool of choice is Namecheap as they offer free domains to people with edu email addresses. So navigate to the <!-- raw HTML omitted -->Namecheap main page<!-- raw HTML omitted -->, create an account, and buy a domain.</p>
+<p>After getting your custom domain, navigate to your [username].github.io repository and click on the settings tab. Go to the &ldquo;custom domain&rdquo; section and input your domain in the text box provided.</p>
+<p>Now, go back to Namecheap and navigate to your account&rsquo;s dashboard. The domain you just bought should be there, click on the manage button at the right. From there, go to the Advanced DNS tab and copy the format of the image below.</p>
+<p><img src="Custom_Domain_Setup.png" alt="Namecheap Example"></p>
+<p>As you can see, there are 4 A records with similar IP addresses, you should copy those into your dashboard as they are given my Github themselves. The last two are CNAME Records which should be different from the image and consist of <!-- raw HTML omitted -->your<!-- raw HTML omitted --> custom domain and <!-- raw HTML omitted -->your<!-- raw HTML omitted --> Github page domain.</p>
+<p>Now, remember when we changed the baseUrl in the config.toml file? Go back to that and change the baseUrl to your custom domain. Repeat the steps after that by adding the files, committing, and pushing. <!-- raw HTML omitted -->NOTE<!-- raw HTML omitted -->: This can also be done in Github if you are feeling a bit lazy.</p>
+<p>The last step is to add a file named &ldquo;CNAME&rdquo; to your [username].github.io repository and add your custom domain as the first line in the file. Note that when writing the text, the custom domain should just be the domain. No https, no slashes.</p>
+<p>After waiting a couple of hours for the DNS to setup, your webpage should be ready. Congratulations!</p>
+<p>If you have any questions or suggestions please feel free to email me.</p>
+<p>Thanks for reading the guide!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>A Better Youtube Search Query</title>
+            <link>https://zhenghaozhu.github.io/posts/a-better-youtube-search-query/</link>
+            <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://zhenghaozhu.github.io/posts/a-better-youtube-search-query/</guid>
+            <description>⚙️Work In Progress⚙️</description>
+            <content type="html"><![CDATA[<p>⚙️Work In Progress⚙️</p>
+]]></content>
+        </item>
+        
+    </channel>
 </rss>

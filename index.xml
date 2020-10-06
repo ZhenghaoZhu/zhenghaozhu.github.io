@@ -13,6 +13,27 @@
     
     
     <item>
+      <title>Books and other interesting stuff</title>
+      <link>https://zhenghaozhu.github.io/book-list/</link>
+      <pubDate>Sun, 04 Oct 2020 11:34:00 +0100</pubDate>
+      
+      <guid>https://zhenghaozhu.github.io/book-list/</guid>
+      <description>Current Reading(s) [To Be Done]
+Past Readings(s) [To Be Done]
+Interesting stuff I really enjoyed [To Be Done]</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://zhenghaozhu.github.io/about/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhenghaozhu.github.io/about/</guid>
+      <description> A personal website to showcase personal projects is one of the most important things a computer science student should have when they are searching for a job. This tutorial will serve all those students that are not well-versed in web development and want an easy way to set up their website in a fast manner.
+ Before Starting </description>
+    </item>
+    
+    <item>
       <title>Hugo site on Github with domain from Namecheap</title>
       <link>https://zhenghaozhu.github.io/posts/hugo-site-on-github-with-domain-from-namecheap/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
@@ -29,15 +50,6 @@
       
       <guid>https://zhenghaozhu.github.io/posts/a-better-youtube-search-query/</guid>
       <description>⚙️Work In Progress⚙️</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://zhenghaozhu.github.io/book-list/</link>
-      <pubDate>Sat, 02 Feb 2019 11:34:00 +0100</pubDate>
-      
-      <guid>https://zhenghaozhu.github.io/book-list/</guid>
-      <description>Personal Website :floppy_disk: The website you are looking at right now was created for the purpose of showing my personal projects and write guides on things that I find interesting. A cool little feature the website has is the button you see in the upper-right corner which changes the website from dark-mode to light-mode and viceversa. Please take a look around and contact me if you have any questions.</description>
     </item>
     
     <item>
