@@ -88,16 +88,5 @@ git push origin master
 ]]></content>
         </item>
         
-        <item>
-            <title>A Better Youtube Search Query</title>
-            <link>https://zhenghaozhu.github.io/posts/a-better-youtube-search-query/</link>
-            <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-            
-            <guid>https://zhenghaozhu.github.io/posts/a-better-youtube-search-query/</guid>
-            <description>⚙️Work In Progress⚙️</description>
-            <content type="html"><![CDATA[<p>⚙️Work In Progress⚙️</p>
-]]></content>
-        </item>
-        
     </channel>
 </rss>
