@@ -1,69 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://zhenghaozhu.com/book-list/</loc>
+    <loc>https://zhenghaozhu.me/book-list/</loc>
     <lastmod>2020-10-04T11:34:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/about/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/about/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/tags/custom-domain/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/tags/custom-domain/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/tags/github/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/tags/github/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/tags/github-pages/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/tags/github-pages/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/tags/hugo/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/tags/hugo/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/posts/hugo-site-on-github-with-domain-from-namecheap/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/posts/hugo-site-on-github-with-domain-from-namecheap/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/tags/namecheap/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/tags/namecheap/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/posts/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/posts/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/tags/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/tags/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/projects/</loc>
+  </url><url>
+    <loc>https://zhenghaozhu.me/projects/</loc>
     <lastmod>2019-02-02T11:34:00+01:00</lastmod>
+  </url><url>
+    <loc>https://zhenghaozhu.me/categories/</loc>
   </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.com/categories/</loc>
-  </url>
-  
 </urlset>

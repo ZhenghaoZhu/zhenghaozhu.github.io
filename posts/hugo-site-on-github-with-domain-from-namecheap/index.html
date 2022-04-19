@@ -11,7 +11,7 @@
  Before Starting  With this tutorial I&amp;rsquo;m assuming you have an IDE such as VS Codeor Sublimeand a version control system such as Git." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://zhenghaozhu.com/posts/hugo-site-on-github-with-domain-from-namecheap/" />
+<link rel="canonical" href="https://zhenghaozhu.me/posts/hugo-site-on-github-with-domain-from-namecheap/" />
 
 
 <title>
@@ -27,7 +27,7 @@
 
 
 
-<link rel="stylesheet" href="/main.min.9b8ec0f5bf87f8f6b5fa88e1018ff01b9be98e4e3a2f27a138fe2c2aceaef679.css">
+<link rel="stylesheet" href="/main.min.ca68beea40ff855ff0b35ac9ce63ba578e7bf0c726c40597dab063d996d82401.css">
 
 
 
@@ -39,15 +39,10 @@
 <link rel="shortcut icon" href="/favicon.ico">
 <meta name="theme-color" content="#252627"><meta itemprop="name" content="Hugo site on Github with domain from Namecheap">
 <meta itemprop="description" content="A personal website to showcase personal projects is one of the most important things a computer science student should have when they are searching for a job. This tutorial will serve all those students that are not well-versed in web development and want an easy way to set up their website in a fast manner.
- Before Starting  With this tutorial I&rsquo;m assuming you have an IDE such as VS Codeor Sublimeand a version control system such as Git.">
-<meta itemprop="datePublished" content="2019-11-01T00:00:00+00:00" />
+ Before Starting  With this tutorial I&rsquo;m assuming you have an IDE such as VS Codeor Sublimeand a version control system such as Git."><meta itemprop="datePublished" content="2019-11-01T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2019-11-01T00:00:00+00:00" />
 <meta itemprop="wordCount" content="891">
-
-
-
-<meta itemprop="keywords" content="hugo,github,github pages,custom domain,namecheap," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="hugo,github,github pages,custom domain,namecheap," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo site on Github with domain from Namecheap"/>
 <meta name="twitter:description" content="A personal website to showcase personal projects is one of the most important things a computer science student should have when they are searching for a job. This tutorial will serve all those students that are not well-versed in web development and want an easy way to set up their website in a fast manner.
  Before Starting  With this tutorial I&rsquo;m assuming you have an IDE such as VS Codeor Sublimeand a version control system such as Git."/>
@@ -87,7 +82,7 @@
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://zhenghaozhu.com/about">About</a></li><li><a href="https://zhenghaozhu.com/projects">Projects</a></li><li><a href="https://zhenghaozhu.com/posts">Posts</a></li><li><a href="https://zhenghaozhu.com/book-list">Book List</a></li>
+    <ul class="menu__inner"><li><a href="https://zhenghaozhu.me/about">About</a></li><li><a href="https://zhenghaozhu.me/projects">Projects</a></li><li><a href="https://zhenghaozhu.me/posts">Posts</a></li><li><a href="https://zhenghaozhu.me/book-list">Book List</a></li>
     </ul>
 </nav>
 
@@ -122,68 +117,68 @@
         </div>
 
         <article>
-            <h1 class="post-title"><a href="https://zhenghaozhu.com/posts/hugo-site-on-github-with-domain-from-namecheap/">Hugo site on Github with domain from Namecheap</a></h1>
+            <h1 class="post-title"><a href="https://zhenghaozhu.me/posts/hugo-site-on-github-with-domain-from-namecheap/">Hugo site on Github with domain from Namecheap</a></h1>
 
             
 
             <div class="post-content">
                 <blockquote>
-<p>A personal website to showcase personal projects is one of the most important things a computer science student should have when they are searching for a job. This 
+<p>A personal website to showcase personal projects is one of the most important things a computer science student should have when they are searching for a job. This
 tutorial will serve all those students that are not well-versed in web development and want an easy way to set up their website in a fast manner.</p>
 </blockquote>
 <h2 id="before-starting">Before Starting</h2>
 <hr>
-<p>With this tutorial I&rsquo;m assuming you have an IDE such as <!-- raw HTML omitted -->VS Code<!-- raw HTML omitted --> or <!-- raw HTML omitted -->Sublime<!-- raw HTML omitted --> and a version control system such as <!-- raw HTML omitted -->Git<!-- raw HTML omitted -->. 
+<p>With this tutorial I&rsquo;m assuming you have an IDE such as <!-- raw HTML omitted -->VS Code<!-- raw HTML omitted --> or <!-- raw HTML omitted -->Sublime<!-- raw HTML omitted --> and a version control system such as <!-- raw HTML omitted -->Git<!-- raw HTML omitted -->.
 Also, you will need to create a GitHub account and Namecheap account to be able to perform instructions further down the line.</p>
 <h2 id="setting-up">Setting Up</h2>
 <hr>
 <p>First, we should install Hugo with the help of the terminal. The code snippets for installing on Windows, Mac, or Linux respectively are below.</p>
 <h3 id="windows-with-chocolatey">Windows with Chocolatey</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">choco install hugo -confirm
-</code></pre></div><h4 id="install-chocolatey-on-windows-with-powershell">Install Chocolatey on Windows with Powershell</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Set-ExecutionPolicy Bypass -Scope Process -Force; iex <span style="color:#f92672">((</span>New-Object System.Net.WebClient<span style="color:#f92672">)</span>.DownloadString<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;https://chocolatey.org/install.ps1&#39;</span><span style="color:#f92672">))</span>
-</code></pre></div><h3 id="mac-with-homebrew">Mac with Homebrew</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install hugo
-</code></pre></div><h3 id="linux-with-linuxbrew">Linux with Linuxbrew</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install hugo
-</code></pre></div><h3 id="further-instructions">Further Instructions</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>choco install hugo -confirm
+</span></span></code></pre></div><h4 id="install-chocolatey-on-windows-with-powershell">Install Chocolatey on Windows with Powershell</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Set-ExecutionPolicy Bypass -Scope Process -Force; iex <span style="color:#f92672">((</span>New-Object System.Net.WebClient<span style="color:#f92672">)</span>.DownloadString<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;https://chocolatey.org/install.ps1&#39;</span><span style="color:#f92672">))</span>
+</span></span></code></pre></div><h3 id="mac-with-homebrew">Mac with Homebrew</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><h3 id="linux-with-linuxbrew">Linux with Linuxbrew</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><h3 id="further-instructions">Further Instructions</h3>
 <p>The next steps can be found in the <a href="https://gohugo.io/getting-started/installing/">Hugo docs</a> which will help you set up the environment in your OS of choice.</p>
 <h2 id="your-first-hugo-site-with-a-theme">Your first Hugo site with a theme</h2>
 <hr>
 <p><strong>This further instructions can also be accomplished with the respective terminal in your operating system, whether that is OS, Linux, or some other operating system.</strong></p>
 <p>Let&rsquo;s set up your site first using the terminal. For this tutorial, we will be using Powershell on Windows 10. First, navigate to the Desktop directory and then follow the command below.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">C:<span style="color:#ae81ff">\U</span>sers<span style="color:#ae81ff">\u</span>sername<span style="color:#ae81ff">\D</span>esktop&gt; hugo new site site-name
-</code></pre></div><p>This should create a folder called site-name in your desktop with some boilerplate code.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>C:<span style="color:#ae81ff">\U</span>sers<span style="color:#ae81ff">\u</span>sername<span style="color:#ae81ff">\D</span>esktop&gt; hugo new site site-name
+</span></span></code></pre></div><p>This should create a folder called site-name in your desktop with some boilerplate code.</p>
 <h3 id="initializing-repository-and-choosing-a-theme">Initializing repository and choosing a theme</h3>
 <p>To choose a theme, go to the <!-- raw HTML omitted -->Hugo themes webpage<!-- raw HTML omitted -->. If you only want to use the theme without any changes then run the following git commands to set up a git repository with a clone of the theme. For this tutorial, we will be using the Pulp theme.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git init
-git clone https://github.com/koirand/pulp.git themes/pulp
-</code></pre></div><p>If you want to make changes to the theme, the best solution is to download the theme from Github and manually adding it to the themes folder.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git clone https://github.com/koirand/pulp.git themes/pulp
+</span></span></code></pre></div><p>If you want to make changes to the theme, the best solution is to download the theme from Github and manually adding it to the themes folder.</p>
 <p>After initializing the repository and adding the theme, we need to configure the config.toml file in the site&rsquo;s folder. We will do this by copy-pasting the config.toml file available in the theme&rsquo;s folder.</p>
 <h3 id="deploying-to-github-pages">Deploying to Github Pages</h3>
 <p>Now create an online <!-- raw HTML omitted -->new<!-- raw HTML omitted --> repository called [username].github.io and another repository called Personal-Website. The [username].github.io repository will host the HTML that will eventually be published to Github pages while the Personal-Website repository will host the Hugo files which will be used to generate the HTML files.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin git@github.com:<span style="color:#f92672">[</span>github_username<span style="color:#f92672">]</span>/Personal-Website.git
-git add -A
-git commit -m <span style="color:#e6db74">&#34;Initial commit for Hugo site&#34;</span>
-git submodule add git@github.com:<span style="color:#f92672">[</span>github_username<span style="color:#f92672">]</span>/<span style="color:#f92672">[</span>github_username<span style="color:#f92672">]</span>.github.io.git
-git add -A
-git commit -m <span style="color:#e6db74">&#34;Initial commit for HTML code generated by Hugo&#34;</span>
-git push -u origin master
-</code></pre></div><p>After this, we need to change the config.toml file by changing the baseURL and publishDir variables to the Github page URL. This will look like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">baseUrl = &#34;https://[github_username].github.io/&#34;
-...
-publishDir = &#34;[github_username].github.io/&#34;
-</code></pre></div><p>Now, just generate the HTML files using the following command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo 
-</code></pre></div><p>The last step is pushing the generated HTML files to Github by doing the following:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add -A
-git commit -m <span style="color:#e6db74">&#34;HTML files generated and first iteration of personal website&#34;</span>
-git push origin master
-</code></pre></div><p>Now do the same thing in your main repository hosting the Hugo code</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add -A
-git commit -m <span style="color:#e6db74">&#34;First version of Hugo personal website&#34;</span>
-git push origin master
-</code></pre></div><h2 id="custom-domain-using-namecheap">Custom domain using Namecheap</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin git@github.com:<span style="color:#f92672">[</span>github_username<span style="color:#f92672">]</span>/Personal-Website.git
+</span></span><span style="display:flex;"><span>git add -A
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit for Hugo site&#34;</span>
+</span></span><span style="display:flex;"><span>git submodule add git@github.com:<span style="color:#f92672">[</span>github_username<span style="color:#f92672">]</span>/<span style="color:#f92672">[</span>github_username<span style="color:#f92672">]</span>.github.io.git
+</span></span><span style="display:flex;"><span>git add -A
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit for HTML code generated by Hugo&#34;</span>
+</span></span><span style="display:flex;"><span>git push -u origin master
+</span></span></code></pre></div><p>After this, we need to change the config.toml file by changing the baseURL and publishDir variables to the Github page URL. This will look like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>baseUrl = &#34;https://[github_username].github.io/&#34;
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>publishDir = &#34;[github_username].github.io/&#34;
+</span></span></code></pre></div><p>Now, just generate the HTML files using the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo 
+</span></span></code></pre></div><p>The last step is pushing the generated HTML files to Github by doing the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add -A
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;HTML files generated and first iteration of personal website&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></div><p>Now do the same thing in your main repository hosting the Hugo code</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add -A
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;First version of Hugo personal website&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></div><h2 id="custom-domain-using-namecheap">Custom domain using Namecheap</h2>
 <p>This is an <em>optional step</em>.</p>
 <p>To set up a custom domain for your Github page you first need a custom domain! My tool of choice is Namecheap as they offer free domains to people with edu email addresses. So navigate to the <!-- raw HTML omitted -->Namecheap main page<!-- raw HTML omitted -->, create an account, and buy a domain.</p>
 <p>After getting your custom domain, navigate to your [username].github.io repository and click on the settings tab. Go to the &ldquo;custom domain&rdquo; section and input your domain in the text box provided.</p>
@@ -203,12 +198,12 @@ git push origin master
 
         <div class="post-info">
                 <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://zhenghaozhu.com/tags/hugo">hugo</a></span><span class="tag"><a href="https://zhenghaozhu.com/tags/github">github</a></span><span class="tag"><a href="https://zhenghaozhu.com/tags/github-pages">github pages</a></span><span class="tag"><a href="https://zhenghaozhu.com/tags/custom-domain">custom domain</a></span><span class="tag"><a href="https://zhenghaozhu.com/tags/namecheap">namecheap</a></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://zhenghaozhu.me/tags/hugo">hugo</a></span><span class="tag"><a href="https://zhenghaozhu.me/tags/github">github</a></span><span class="tag"><a href="https://zhenghaozhu.me/tags/github-pages">github pages</a></span><span class="tag"><a href="https://zhenghaozhu.me/tags/custom-domain">custom domain</a></span><span class="tag"><a href="https://zhenghaozhu.me/tags/namecheap">namecheap</a></span>
                 </p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>891 Words</p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-10-31 20:00 -0400</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-10-31 17:00 -0700</p>
         </div>
 
         
@@ -221,7 +216,7 @@ git push origin master
                 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <span>&copy; 2021</span>
+            <span>&copy; 2022</span>
             
             <span>Powered by <a href="http://gohugo.io" target= "_blank" rel = "noopener">Hugo</a></span>
         </div>
@@ -241,7 +236,7 @@ git push origin master
 
 
 
-<script type="text/javascript" src="/bundle.min.4c3fb12a087ceed4a52cb5d57068a9795c7069617a01ca70f788052ad66e1791779e6c72686e1dc0ca13dc03b0203204b6566bb0dd1ee80de2b7ff4d8fe53db2.js" integrity="sha512-TD&#43;xKgh87tSlLLXVcGipeVxwaWF6Acpw94gFKtZuF5F3nmxyaG4dwMoT3AOwIDIEtlZrsN0e6A3it/9Nj&#43;U9sg=="></script>
+<script type="text/javascript" src="/bundle.min.f82006508c6d36abcec95e9b906088fbca9243d51fe6829ae9ac1d9e3b39675b854c5590dd8e6a693465672367de6736756151368a924b5fc7b6305ca74dc618.js" integrity="sha512-&#43;CAGUIxtNqvOyV6bkGCI&#43;8qSQ9Uf5oKa6awdnjs5Z1uFTFWQ3Y5qaTRlZyNn3mc2dWFRNoqSS1/HtjBcp03GGA=="></script>
 
 
 

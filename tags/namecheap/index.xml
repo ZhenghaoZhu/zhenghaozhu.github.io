@@ -2,31 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>namecheap on Zhenghao (Kevin) Zhu</title>
-    <link>https://zhenghaozhu.com/tags/namecheap/</link>
+    <link>https://zhenghaozhu.me/tags/namecheap/</link>
     <description>Recent content in namecheap on Zhenghao (Kevin) Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Zhenghao (Kevin) Zhu</copyright>
-    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://zhenghaozhu.com/tags/namecheap/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://zhenghaozhu.me/tags/namecheap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>https://zhenghaozhu.com/about/</link>
+      <link>https://zhenghaozhu.me/about/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhenghaozhu.com/about/</guid>
+      <guid>https://zhenghaozhu.me/about/</guid>
       <description>Education  Undergraduate student @ Stony Brook University studying Computer Science and Applied Mathematics (Expected Graduation: May 2021)  Work Experience  Incoming Software Engineer @ Microsoft (Summer 2021) Software Engineer Intern @ Microsoft (Summer 2020) Undergraduate Research Assistant @ The Moffitt Group in Stony Brook University Bioinformatics Department (Fall 2019 - Present) Undergraduate Research Assistant @ The Eisele Group in The City College of New York (Summer 2017 - Winter 2018)  </description>
     </item>
     
     <item>
       <title>Hugo site on Github with domain from Namecheap</title>
-      <link>https://zhenghaozhu.com/posts/hugo-site-on-github-with-domain-from-namecheap/</link>
+      <link>https://zhenghaozhu.me/posts/hugo-site-on-github-with-domain-from-namecheap/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhenghaozhu.com/posts/hugo-site-on-github-with-domain-from-namecheap/</guid>
+      <guid>https://zhenghaozhu.me/posts/hugo-site-on-github-with-domain-from-namecheap/</guid>
       <description>A personal website to showcase personal projects is one of the most important things a computer science student should have when they are searching for a job. This tutorial will serve all those students that are not well-versed in web development and want an easy way to set up their website in a fast manner.
  Before Starting  With this tutorial I&amp;rsquo;m assuming you have an IDE such as VS Codeor Sublimeand a version control system such as Git.</description>
     </item>

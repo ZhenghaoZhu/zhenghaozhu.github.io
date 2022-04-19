@@ -2,14 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Zhenghao (Kevin) Zhu</title>
-    <link>https://zhenghaozhu.com/categories/</link>
+    <link>https://zhenghaozhu.me/categories/</link>
     <description>Recent content in Categories on Zhenghao (Kevin) Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Zhenghao (Kevin) Zhu</copyright>
-    
-	<atom:link href="https://zhenghaozhu.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Zhenghao (Kevin) Zhu</copyright><atom:link href="https://zhenghaozhu.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

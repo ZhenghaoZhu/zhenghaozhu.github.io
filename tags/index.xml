@@ -2,58 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Zhenghao (Kevin) Zhu</title>
-    <link>https://zhenghaozhu.com/tags/</link>
+    <link>https://zhenghaozhu.me/tags/</link>
     <description>Recent content in Tags on Zhenghao (Kevin) Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Zhenghao (Kevin) Zhu</copyright>
-    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://zhenghaozhu.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://zhenghaozhu.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>custom domain</title>
-      <link>https://zhenghaozhu.com/tags/custom-domain/</link>
+      <link>https://zhenghaozhu.me/tags/custom-domain/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhenghaozhu.com/tags/custom-domain/</guid>
+      <guid>https://zhenghaozhu.me/tags/custom-domain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://zhenghaozhu.com/tags/github/</link>
+      <link>https://zhenghaozhu.me/tags/github/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhenghaozhu.com/tags/github/</guid>
+      <guid>https://zhenghaozhu.me/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github pages</title>
-      <link>https://zhenghaozhu.com/tags/github-pages/</link>
+      <link>https://zhenghaozhu.me/tags/github-pages/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhenghaozhu.com/tags/github-pages/</guid>
+      <guid>https://zhenghaozhu.me/tags/github-pages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://zhenghaozhu.com/tags/hugo/</link>
+      <link>https://zhenghaozhu.me/tags/hugo/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhenghaozhu.com/tags/hugo/</guid>
+      <guid>https://zhenghaozhu.me/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>namecheap</title>
-      <link>https://zhenghaozhu.com/tags/namecheap/</link>
+      <link>https://zhenghaozhu.me/tags/namecheap/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhenghaozhu.com/tags/namecheap/</guid>
+      <guid>https://zhenghaozhu.me/tags/namecheap/</guid>
       <description></description>
     </item>
     
