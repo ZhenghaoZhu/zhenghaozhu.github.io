@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/kevin/.ssh/zhenghaozhu.com",
+	"sourceRoot": "/Users/kevin/Desktop/Zhenghao-Zhu-Personal-Website-Hugo",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",
